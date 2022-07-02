@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="bg-style">
+    <section id="header-sid">
+      <div class="img-heder">
+        <img src="python.png" height="70px">
+      </div>
+
+      <div class="search-part">
+        <p>Text Size: <span-yellow>Normal</span>|<span-yellow>Large</span> </p>
+
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Search" aria-label="Search"
+            aria-describedby="button-addon2">
+          <button class="btn btn-outline-secondary" type="button" id="button-addon2">GO</button>
+        </div>
+      </div>
+    </section>
+    <section id="nav-part">
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-About-tab" data-bs-toggle="pill" data-bs-target="#pills-About "
+            type="button" role="tab" aria-controls="pills-About" aria-selected="true">About</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-Downloads-tab" data-bs-toggle="pill" data-bs-target="#pills-Downloads "
+            type="button" role="tab" aria-controls="pills-Downloads" aria-selected="false">Downloads</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-Documentation-tab" data-bs-toggle="pill"
+            data-bs-target="#pills-Documentation " type="button" role="tab" aria-controls="pills-Documentation"
+            aria-selected="false">Documentation</button>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-Community-tab" data-bs-toggle="pill" data-bs-target="#pills-Community "
+            type="button" role="tab" aria-controls="pills-Community" aria-selected="false">Community
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-News-tab" data-bs-toggle="pill" data-bs-target="#pills-News " type="button"
+            role="tab" aria-controls="pills-News" aria-selected="false">News</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-Events-tab" data-bs-toggle="pill" data-bs-target="#pills-Events "
+            type="button" role="tab" aria-controls="pills-Events" aria-selected="false"> Events</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-About" role="tabpanel" aria-labelledby="pills-About-tab"
+          tabindex="0">
+          <section id="abut-content" class="text-center">
+            <div class="left-sid">
+              <ul>
+                <li> <a href="#">Audio/Visual Talks</a> </li>
+                <li> <a href="#">DOCs</a> </li>
+                <li> <a href="#">Beginner's Guide</a> </li>
+                <li> <a href="#">Developer's Guide</a> </li>
+                <li> <a href="#">PEP Index</a> </li>
+                <li> <a href="#">Python Books</a> </li>
+                <li>  <a href="#">FAQ</a> </li>
+              </ul>
+            </div>
+            <div class="right-sid">
+              <p>First appearing in 1991, Python is a general-purpose, high-level, interpreted programming <br>
+                language whose design focus emphasizes code readability. Whether for processing/analyzing <br>
+                data to powering many well-known applications, Python is not only a great language for new <br>
+                programmers but also powerful enough for seasoned developers building whatever they can think <br>
+                of</p>
+
+
+              <h1>
+                <span-yellow>Beautiful is better than ugly;
+                </span-yellow>
+              </h1>
+              <h1>
+                <span-yellow> Explicit is better than implicit;
+                </span-yellow>
+              </h1>
+              <h1>
+                <span-yellow>Simple is better than complex;
+                </span-yellow>
+              </h1>
+              <h1>
+                <span-yellow> Complex is better than complicated;
+                </span-yellow>
+              </h1>
+              <h1>
+                <span-yellow> Readability counts;
+                </span-yellow>
+              </h1>
+              <p>The Zen of Python</p>
+            </div>
+
+          </section>
+
+        </div>
+        <div class="tab-pane fade" id="pills-Downloads" role="tabpanel" aria-labelledby="pills-Downloads-tab"
+          tabindex="0">2</div>
+        <div class="tab-pane fade" id="pills-Documentation" role="tabpanel" aria-labelledby="pills-Documentation-tab"
+          tabindex="0">3</div>
+        <div class="tab-pane fade" id="pills-Community" role="tabpanel" aria-labelledby="pills-Community-tab"
+          tabindex="0">4</div>
+        <div class="tab-pane fade" id="pills-News" role="tabpanel" aria-labelledby="pills-News-tab" tabindex="0">5</div>
+        <div class="tab-pane fade" id="pills-Events" role="tabpanel" aria-labelledby="pills-Events-tab" tabindex="0">6
+        </div>
+
+      </div>
+    </section>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
